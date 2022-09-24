@@ -11,5 +11,12 @@ h1, h2, h3 {
 
 // import bootstrap :
 
-@import "variables.scss";
+
+// bootstrap variables overrides:
+@import "variables";
+
+// Bootstrap Styles:
 @import "../../node_modules//bootstrap/scss/bootstrap.scss";
+
+// Original Styles:
+@import "./components/navbar";
